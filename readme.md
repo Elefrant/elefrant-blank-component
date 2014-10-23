@@ -1,9 +1,5 @@
 # Elefrant Blank Component
 
-[![wercker status](https://app.wercker.com/status/ed958a0d0e57a3d11084695e9728b6b1/s/master "wercker status")](https://app.wercker.com/project/bykey/ed958a0d0e57a3d11084695e9728b6b1)
-
-[![Dependency Status](https://gemnasium.com/Elefrant/elefrant-orm.svg)](https://gemnasium.com/Elefrant/elefrant-orm)
-
 ## Usage
 
     Whiteboard component to create your own component.
@@ -11,7 +7,7 @@
 
 ## Structure
 
-### Component `/component.js`
+### Component
 
     Main file of the component. Register the functionality for the different parts of the server.
 
