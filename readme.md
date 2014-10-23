@@ -1,15 +1,16 @@
 # Elefrant Blank Component
 
+
 ## Usage
 
-    Whiteboard component to create your own component.
+Whiteboard component to create your own component.
 
 
 ## Structure
 
-### Component
+### Component `/component.js`
 
-    Main file of the component. Register the functionality for the different parts of the server.
+Main file of the component. Register the functionality for the different parts of the server.
 
 ```js
 module.exports = {
@@ -59,24 +60,24 @@ module.exports = {
 
 ### Config `/config/`
 
-    Default config files for the component.
+Default config files for the component.
 
-    **To allow users customize the config files, you should allow to create a file in general config folder. Will be easy to change. For example: `elefrant/config/nameOfComponent.js`**
+**To allow users customize the config files, you should allow to create a file in general config folder. Will be easy to change. For example: `elefrant/config/nameOfComponent.js`**
 
 
 ### Lib `/lib/`
 
-    Create all the needed libraries.
+Create all the needed libraries.
 
 
 ### Test `/test/`
 
-    Create test files
+Create test files
 
 
 ## Launch tests
 
-    Just put in the console: `npm test`
+Just put in the console: `npm test`
 
 
 ## License
